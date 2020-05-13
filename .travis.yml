@@ -1,11 +1,5 @@
 language: java
 
-addons:
-  sonarcloud:
-    organization: "gitcloneguy"
-    token:
-     secure: "TkydUEw72oSYL3w7Il1yqyMgZAWgCfHCD844Mj1O+VjYqB1eTHqpqeTrLly8bbicg6R3MYXT1tF3aAjR2Esv1yF2e5TmoRRw/2RVJq4W1b36H44F3eI8LoV+rJjaovVcmV7mZJLxtXNC589sxOHXed5M0yvQ3PFjHKCJfbM1pywFu+QHbAF6HGQ2IcCQl6T7KmCnxwaEwWJ5JDuz/h82frbJZgp6qoeTVK9HxhydB/3HXDq0088tbLDIFkt7OZz2lOl0VQqpRSmfFt3oy6RUfuxiRXL6XHmrL1tZdniIUoQoCVCSZytmAHxl5/TpoONYnXRg2TLuCJP4sTegEozfYG1ILh2I8zfM0mIExPidR7mMvpJX1fklxnPWy6U2rDvVB7dVQWUPG3oApjNvh6TplR9kvmjdi63N9aCsWlZonbFuwnp8sbThdighvF2zfOsamu/uD4trNa835jvZjS7hNOq7tlMI/L8jBiwybLrTEIRYUXotkX2s6+XMk7wGNRPWC5P91TUWGXnSzht4lkT89TELz1+YgDbDSGiRmLjEIkqpEeh+ik7zKVrAhjXphHMPRdOhdP7xx4baaSwfv78tb0NvdSHer7LPkiX6l62j4dDRdzvd2l2jjJdx9xeFTsVhnXS89l27qwMlbhVRM8Viz6eWf6DcJfIjVEN93XaWlC8="
-    
 script:
  mvn install
- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gitcloneguy_TriviaBuster
+ 
